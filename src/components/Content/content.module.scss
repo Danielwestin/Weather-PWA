@@ -1,0 +1,139 @@
+.content {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content ul {
+  width: 40%;
+}
+
+.content li {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem 1rem;
+  background-color: gray;
+  color: white;
+}
+
+.liDayNIcon {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 95%;
+}
+
+.weatherInfo {
+  flex: 6;
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  //   padding: 0rem 0.5rem;
+  //   background-color: purple;
+}
+
+.datesNTime {
+  //   background-color: red;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //   justify-content: space-between;
+}
+
+.datesNTime .time {
+  font-size: 25px;
+}
+
+.windNTemp {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.wind {
+  color: white;
+}
+
+.temp {
+  font-size: 30px;
+}
+
+.hot {
+  color: rgb(167, 7, 7);
+}
+.cold {
+  color: rgb(2, 2, 156);
+}
+
+img {
+  width: 60px;
+  height: 40px;
+}
+
+/* Portrait */
+@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
+  .content ul {
+    width: 100%;
+  }
+
+  .windNTemp {
+    flex-direction: column;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7, 8, X ----------- */
+
+/* Portrait */
+@media screen and (min-width: 375px) and (max-width: 812px) and (orientation: portrait) {
+  .content ul {
+    width: 100%;
+  }
+}
+
+/* Landscape */
+@media screen and (min-width: 375px) and (max-width: 812px) and (orientation: landscape) {
+  .content ul {
+    width: 90%;
+  }
+}
+
+/* ----------- IPAD ----------- */
+/* Portrait */
+@media screen and (min-width: 813px) and (max-width: 1024px) and (orientation: portrait) {
+  .content ul {
+    width: 80%;
+  }
+}
+
+/* Landscape */
+@media screen and (min-width: 813px) and (max-width: 1024px) and (orientation: landscape) {
+  .content ul {
+    width: 80%;
+  }
+}
+
+/* ----------- IPAD PRO ----------- */
+/* Portrait */
+@media screen and (min-width: 1025px) and (max-width: 1366px) and (orientation: portrait) {
+  .content ul {
+    width: 70%;
+  }
+}
+
+/* Landscape */
+//and (max-width: 1366px)
+@media screen and (min-width: 1025px) and (orientation: landscape) {
+  .content ul {
+    width: 70%;
+  }
+}

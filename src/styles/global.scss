@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300&display=swap");
+@import "../components/Loading/loading.scss";
+body {
+  font-family: "Cardo", serif;
+  font-display: fallback;
+  -webkit-overflow-scrolling: touch;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-display: fallback;
+}
+
+body {
+  font-family: "Lora", serif;
+  font-display: fallback;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-display: fallback;
+}
+
+svg {
+  width: 24px;
+  height: 24px;
+}
+
+img {
+  width: 60px;
+  height: 40px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+  border-radius: 5px;
+}
